@@ -1,0 +1,69 @@
+@set metadata {
+  body {
+    margin: 0;
+    flow: vertical;
+    width: min-content;
+    height: max-content;
+    border-spacing: 10dip;
+    overflow: hidden;
+    padding: 10dip;
+  }
+
+  main {
+    flow: vertical;
+    width: max-content;
+    border-spacing: 1em;
+    vertical-align: middle;
+  }
+
+  main > label {
+    flow: horizontal;
+    border-spacing: 0.25em;
+    width: 400dip;
+    min-width: max-content;
+    vertical-align: middle;
+  }
+
+  main > label > span {
+    min-width: max-content;
+    width: 12ch;
+  }
+
+  main > label[for='icofile'] > span {
+    fill: red;
+    stroke: red;
+    foreground-size: contain;
+    foreground-position: 100% 50%;
+    height: *;
+  }
+
+  #browse {
+    height: *;
+  }
+
+  main > label > span::after {
+    content: ':';
+  }
+
+  main > label > input {
+    width: *;
+    display: inline-block; 
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    padding: 0.25em;
+  }
+
+  main > label > input > caption {
+    height: 2em;
+    vertical-align: middle;
+    padding: 0.25em;
+  }
+
+  footer {
+    width: *;
+    horizontal-align: right;
+    flow: horizontal;
+    border-spacing: 0.25em;
+  }
+}

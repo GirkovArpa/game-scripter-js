@@ -1,0 +1,19 @@
+<html window-resizable="false">
+
+  <head>
+    <title>Metadata</title>
+    <style>
+      html {
+        overflow: hidden;
+      }
+    </style>
+    <script type="module">
+      import { Metadata } from 'metadata.js';
+      const { app } = Window.this.parameters;
+      document.body.patch(<Metadata app={app} />);
+    </script>
+  </head>
+
+  <body></body>
+
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html window-resizable="false">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>About</title>
+    <link href="about.css" rel="stylesheet" />
+    <script type="module">
+      import { About } from 'about.js';
+      document.body.patch(<About app={Window.this.parameters.app} />);
+    </script>
+  </head>
+
+  <body></body>
+
+</html>

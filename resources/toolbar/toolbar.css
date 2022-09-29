@@ -1,0 +1,47 @@
+@set toolbar {
+  :root {
+    background: var(base95-color);
+    color: var(base95-text-color);
+  }
+  :root > button {
+    size: 24px;
+    foreground-repeat: no-repeat;
+    foreground-position: 50% 50%;
+    foreground-size: 16px;
+  }
+
+  button:disabled {
+    filter: saturate(0%);
+  }
+
+  button(apply) {
+    foreground-image: url(checkmark.png);
+  }
+
+  button(play) {
+    foreground-image: url(play.png);
+  }
+
+  button(pause) {
+    foreground-image: url(pause.png);
+  }
+
+  button(restart) {
+    foreground-image: url(restart.png);
+  }
+
+   button(compile) {
+    foreground-image: url(compile.png);
+  }
+}
+
+@set vr {
+  :root {
+    height: *;
+    margin: 2dip 0;
+    width: 4dip;
+    padding-left: -4dip;
+    border-left: 1dip solid var(base95-text-color);
+    opacity: 0.3;
+  }
+}

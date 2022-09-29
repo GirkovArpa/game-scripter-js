@@ -1,0 +1,18 @@
+html {
+}
+
+@set body {
+  :root {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    flow: vertical;
+    border-spacing: 0;
+  }
+
+  frameset {
+    
+  }
+}

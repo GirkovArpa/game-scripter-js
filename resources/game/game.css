@@ -1,0 +1,13 @@
+@set game {
+  :root {
+    width: *;
+    height: *;
+    background: red;
+  }
+
+  #canvas {
+    width: *;
+    height: *;
+    background: lime;
+  }
+} 

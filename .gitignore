@@ -1,0 +1,10 @@
+_*
+*.exe
+*.dll
+*.zip
+*.lnk
+*.json
+
+/packaged
+
+/your-game

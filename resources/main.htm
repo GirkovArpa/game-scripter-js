@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>GameScripter.JS</title>
+    <link href="main.css" rel="stylesheet" />
+    <script type="module">
+      Window.share.debugging = true; // debugging
+
+      //setInterval(() => Window.this.isTopmost = true);
+
+      import { Application } from 'main.js';
+      document.body.patch(<Application />);
+    </script>
+    <menu .window> 
+      <li>
+        File
+        <menu (file)>
+          <li (save)>Save</li>
+        </menu>
+      </li>
+      <li>
+        Settings
+        <menu (settings)>
+          <li (metadata)>Metadata&hellip;</li>
+        </menu>
+      </li>
+      <li>
+        Help
+        <menu (help)>
+          <li (about)>About&hellip;</li>
+        </menu>
+      </li>
+    </menu>
+  </head>
+
+  <body></body>
+</html>

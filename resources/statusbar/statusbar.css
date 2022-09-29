@@ -1,0 +1,6 @@
+@set statusbar {
+  :root {
+    padding: 0.25em;
+    width: *;
+  }
+}
